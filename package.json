@@ -1,0 +1,24 @@
+{
+  "name": "rollup-linux-loong64-gnu",
+  "version": "4.28.0",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "loong64"
+  ],
+  "files": [
+    "rollup.linux-loong64-gnu.node"
+  ],
+  "description": "Native bindings for Rollup",
+  "homepage": "https://rollupjs.org/",
+  "license": "MIT",
+  "repository": "rollup/rollup",
+  "libc": [
+    "glibc"
+  ],
+  "main": "./rollup.linux-loong64-gnu.node",
+  "scripts": {
+    "release": "pnpm -r publish --access public"
+  }
+}
